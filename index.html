@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/istockphoto-1180487351-1024x1024.jpg');
+            font-family: 'Baloo Chettan 2',cursive;
+        }
+
+        .left {
+            display: inline-block;
+            
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            margin: 21px auto;
+        }
+        .left img{
+            width: 131px;
+        }
+        .left div {
+            text-align: center;
+        }
+        .mid {
+            
+            display: block;
+            width: 65%;
+            margin: 21px auto;
+            padding: 0px 20px;
+        }
+
+        .right {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            display: inline-block;
+           
+            margin: 21px auto;
+        }
+        .navbar{
+            display: inline-block;
+            padding: 0px 186px;
+            font-size:xx
+        } 
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: rgb(241, 255, 46);
+            text-decoration: none;
+            padding: 34px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: aliceblue;
+        }
+        .btn{
+            margin: 15px 9px;
+            color: aliceblue;
+            background-color: rgb(66, 60, 60);
+            padding: 4px 14px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Baloo Chettan 2',cursive;
+            width: 138px;
+        }
+        .btn:hover{
+            background-color: rgb(39, 11, 117);
+        }
+        .container{
+            border: 5px solid rgb(255, 248, 248);
+            width: 69%;
+            padding: 47px;
+            margin: 161px;
+            border-radius: 10px;
+            font-size: larger;
+                text-align: center;
+        } 
+        .form-group input{
+            text-align: center;
+            font-size: large;
+            margin: 8px;
+            border-radius: 2px;
+            font-family: 'Baloo Chettan 2',cursive;
+        }
+        .heading{
+            color: #CCFF00;
+        }
+        .container button{
+            width: 262px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headeer">
+        <div class="left">
+            <img src="img/pngtree-fitness-gym-center-logo-with-neon-light-effect-vector-illustration-png-image_3669673.jpg" alt="">
+            <div>shubz fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+<div class="container">
+<h2 class="heading">Join Our Gym Fast</h2>
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your name" >
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your contact no." >
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your age" >
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your email" >
+    </div>
+    <button class="btn">Sumit</button>
+</form>
+</div>
+</body>
+
+</html>
